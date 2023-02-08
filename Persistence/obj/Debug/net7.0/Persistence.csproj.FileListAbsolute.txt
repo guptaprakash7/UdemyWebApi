@@ -1,0 +1,15 @@
+D:\mydata\Learn\UdemyWebApi\Persistence\bin\Debug\net7.0\Persistence.deps.json
+D:\mydata\Learn\UdemyWebApi\Persistence\bin\Debug\net7.0\Persistence.dll
+D:\mydata\Learn\UdemyWebApi\Persistence\bin\Debug\net7.0\Persistence.pdb
+D:\mydata\Learn\UdemyWebApi\Persistence\bin\Debug\net7.0\Domain.dll
+D:\mydata\Learn\UdemyWebApi\Persistence\bin\Debug\net7.0\Domain.pdb
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.dll
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\Persistence.pdb
+D:\mydata\Learn\UdemyWebApi\Persistence\obj\Debug\net7.0\ref\Persistence.dll
