@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ES1A0NqqqyQggNRy6HpkgzVj041YaeLEbAkK/DVYZ1SKnQUHqAGvkKSO2xKtlXTRM2/PsfSamU95DSqHrRM6sw==",
+  "dgSpecHash": "tezafMiUBw0dO3k3IrujD1OAd7r9+XyLMP1Knv/z8vjTvTxa+ESLxKYQyr8/92EeNR0s0LbzjZgCCdDbdGgnng==",
   "success": true,
   "projectFilePath": "D:\\mydata\\Learn\\UdemyWebApi\\api\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Prakash\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Prakash\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Prakash\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Prakash\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Prakash\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\Prakash\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tob3NlMe/rW53ZCo0UMC/R8ZTIOM9PFR+mCbCy/ajzdruxx1DV8Crit6r5WCnWIctZYEANimtBdARvlErlvRdA==",
+  "dgSpecHash": "5SeX2PEM35PuuJVAT0brE8Qr64Xlbmn9dpyhVtdcMBhZxyZnMVBGyeDgh4Fq5XMJe8xcmdWd3Vueuzm2MUAyEw==",
   "success": true,
   "projectFilePath": "D:\\mydata\\Learn\\UdemyWebApi\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Prakash\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Prakash\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Prakash\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Prakash\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\Prakash\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Prakash\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

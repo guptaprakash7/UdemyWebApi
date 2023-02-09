@@ -29,8 +29,9 @@ namespace API.Extensions
             });
 
             services.AddMediatR(typeof(List.Handler));
+            services.AddFluentValidationAutoValidation();
 
-          return services;
+            return services;
         }
     }
 }
