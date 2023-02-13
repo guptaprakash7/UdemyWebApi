@@ -3,10 +3,19 @@ import axios from "axios";
 
 import ActivityList from "../components/activity/ActivityList";
 
+export const tokenContext = React.createContext();
+
 const Activity = () => {
   const [activities, setActivities] = useState();
+  const [token, setToken] = useState();
   useEffect(() => {
-    fetch("http://localhost:5035/api/activities")
+    const token = localStorage.getItem("token");
+    setToken(token);
+    fetch("http://localhost:5035/api/activities", {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    })
       .then((response) => response.json())
       .then((response) => {
         console.log(response);
@@ -17,7 +26,11 @@ const Activity = () => {
 
   return (
     <div>
-      {activities && <ActivityList activities={activities}></ActivityList>}
+      {activities && (
+        <tokenContext.Provider value={token}>
+          <ActivityList activities={activities}></ActivityList>{" "}
+        </tokenContext.Provider>
+      )}
     </div>
   );
 };

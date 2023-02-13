@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mydata\\Learn\\UdemyWebApi\\api\\API.csproj": {}
+    "D:\\Learn\\UdemyWebApi\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\mydata\\Learn\\UdemyWebApi\\api\\API.csproj": {
+    "D:\\Learn\\UdemyWebApi\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mydata\\Learn\\UdemyWebApi\\api\\API.csproj",
+        "projectUniqueName": "D:\\Learn\\UdemyWebApi\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\api\\API.csproj",
-        "packagesPath": "C:\\Users\\Prakash\\.nuget\\packages\\",
-        "outputPath": "D:\\mydata\\Learn\\UdemyWebApi\\api\\obj\\",
+        "projectPath": "D:\\Learn\\UdemyWebApi\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\praka\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\UdemyWebApi\\api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Prakash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\praka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\mydata\\Learn\\UdemyWebApi\\Application\\Application.csproj": {
-                "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\Application\\Application.csproj"
+              "D:\\Learn\\UdemyWebApi\\Application\\Application.csproj": {
+                "projectPath": "D:\\Learn\\UdemyWebApi\\Application\\Application.csproj"
               }
             }
           }
@@ -47,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -60,6 +61,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.0, )"
             }
           },
           "imports": [
@@ -85,20 +90,17 @@
         }
       }
     },
-    "D:\\mydata\\Learn\\UdemyWebApi\\Application\\Application.csproj": {
+    "D:\\Learn\\UdemyWebApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mydata\\Learn\\UdemyWebApi\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Learn\\UdemyWebApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Prakash\\.nuget\\packages\\",
-        "outputPath": "D:\\mydata\\Learn\\UdemyWebApi\\Application\\obj\\",
+        "projectPath": "D:\\Learn\\UdemyWebApi\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\praka\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\UdemyWebApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Prakash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\praka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,11 +114,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\Domain.csproj"
+              "D:\\Learn\\UdemyWebApi\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Learn\\UdemyWebApi\\Domain\\Domain.csproj"
               },
-              "D:\\mydata\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj"
+              "D:\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -160,20 +162,17 @@
         }
       }
     },
-    "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\Domain.csproj": {
+    "D:\\Learn\\UdemyWebApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Learn\\UdemyWebApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Prakash\\.nuget\\packages\\",
-        "outputPath": "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\obj\\",
+        "projectPath": "D:\\Learn\\UdemyWebApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\praka\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\UdemyWebApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Prakash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\praka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,6 +197,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -218,20 +223,17 @@
         }
       }
     },
-    "D:\\mydata\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj": {
+    "D:\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mydata\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Prakash\\.nuget\\packages\\",
-        "outputPath": "D:\\mydata\\Learn\\UdemyWebApi\\Persistence\\obj\\",
+        "projectPath": "D:\\Learn\\UdemyWebApi\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\praka\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\UdemyWebApi\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Prakash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\praka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,8 +247,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\mydata\\Learn\\UdemyWebApi\\Domain\\Domain.csproj"
+              "D:\\Learn\\UdemyWebApi\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Learn\\UdemyWebApi\\Domain\\Domain.csproj"
               }
             }
           }
